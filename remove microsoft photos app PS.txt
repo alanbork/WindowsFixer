@@ -1,0 +1,3 @@
+powershell (as admin):
+
+Get-AppxPackage *photos* | Remove-AppxPackage

@@ -1,0 +1,2 @@
+run as powershell admin
+Get-AppxPackage *zunevideo* | Remove-AppxPackage
