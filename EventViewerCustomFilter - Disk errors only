@@ -1,0 +1,12 @@
+<QueryList>
+  <Query Id="0" Path="System">
+    <Select Path="System">
+      *[System[(Level=2 or Level=3) and (Provider/@Name='disk' or Provider/@Name='Ntfs' or Provider/@Name='atapi' or Provider/@Name='storport' or Provider/@Name='partmgr' or Provider/@Name='volmgr' or Provider/@Name='volsnap')]]
+    </Select>
+  </Query>
+  <Query Id="1" Path="Application">
+    <Select Path="Application">
+      *[System[(Level=2 or Level=3) and (Provider/@Name='disk' or Provider/@Name='Ntfs' or Provider/@Name='atapi' or Provider/@Name='storport' or Provider/@Name='partmgr' or Provider/@Name='volmgr' or Provider/@Name='volsnap')]]
+    </Select>
+  </Query>
+</QueryList>
